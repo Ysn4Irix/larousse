@@ -1,7 +1,7 @@
 {
 	"name": "larousse",
 	"description": "A command line interface to get french 🇫🇷 word definitions & synonymes from larousse website",
-	"version": "1.0.0",
+	"version": "1.1.0",
 	"license": "MIT",
 	"bin": {
 		"larousse": "index.js"
