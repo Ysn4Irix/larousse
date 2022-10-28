@@ -12,10 +12,7 @@
 
 <p align="center">
   <b>📟 A command line interface to get french word definitions & synonymes from
-  <a href='https://github.com/Ysn4Irix/ex-api-template' target='_blank'>
-  larousse
-  </a>
-    website
+  <a href='https://www.larousse.fr' target='_blank'>larousse</a> website
   </b>
 </p>
 
