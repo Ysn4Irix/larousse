@@ -1,0 +1,59 @@
+{
+	"name": "larousse",
+	"description": "A command line interface to get french 🇫🇷 word definitions & synonymes from larousse website",
+	"version": "1.0.0",
+	"license": "MIT",
+	"bin": {
+		"larousse": "index.js"
+	},
+	"author": {
+		"name": "Ysn4Irix",
+		"email": "ysn4irix@gmail.com",
+		"url": "https://ysnirix.live"
+	},
+	"keywords": [
+		"cli",
+		"larousse",
+		"nodejs",
+		"word-definitions",
+		"dictionary",
+		"french",
+		"cheerio",
+		"web-scraping",
+		"command-line-interface"
+	],
+	"files": [
+		"index.js",
+		"utils"
+	],
+	"repository": {
+		"url": "https://github.com/ysn4irix/larousse"
+	},
+	"bugs": {
+		"url": "https://github.com/ysn4irix/larousse/issues"
+	},
+	"homepage": "https://github.com/ysn4irix/larousse#readme",
+	"scripts": {
+		"format": "prettier --write \"./**/*.{js,json}\""
+	},
+	"dependencies": {
+		"axios": "^1.1.3",
+		"chalk": "4.1.2",
+		"cheerio": "^1.0.0-rc.12",
+		"cli-alerts": "^1.2.2",
+		"cli-handle-error": "^4.4.0",
+		"cli-handle-unhandled": "^1.1.1",
+		"cli-meow-help": "^3.1.0",
+		"cli-should-cancel": "^1.0.3",
+		"cli-welcome": "^2.2.2",
+		"meow": "9.0.0",
+		"ora": "5.4.0"
+	},
+	"devDependencies": {
+		"prettier": "^2.7.1"
+	},
+	"engines": {
+		"npm": ">=6.0.0",
+		"node": ">=15.0.0"
+	}
+}

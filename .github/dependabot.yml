@@ -1,0 +1,21 @@
+version: 2
+updates:
+    # Fetch and update latest `npm` packages
+    - package-ecosystem: npm
+      directory: '/'
+      schedule:
+          interval: weekly
+          time: '00:00'
+      open-pull-requests-limit: 10
+      ignore:
+          - dependency-name: 'meow'
+          - dependency-name: 'ora'
+          - dependency-name: 'chalk'
+      reviewers:
+          - ysn4irix
+      assignees:
+          - ysn4irix
+      commit-message:
+          prefix: fix
+          prefix-development: chore
+          include: scope
