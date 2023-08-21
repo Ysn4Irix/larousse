@@ -50,7 +50,7 @@
 		"ora": "5.4.0"
 	},
 	"devDependencies": {
-		"prettier": "^2.7.1"
+		"prettier": "^3.0.2"
 	},
 	"engines": {
 		"npm": ">=6.0.0",
